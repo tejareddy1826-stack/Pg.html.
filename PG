@@ -1,0 +1,1301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NEW LOKANATH LADIES PG | Kundalahalli, Bengaluru</title>
+
+  <meta name="description"
+    content="Explore NEW LOKANATH LADIES PG in Kundalahalli, Bengaluru. Compare single, double and triple sharing rooms, explore amenities and contact us for availability.">
+
+  <meta name="theme-color" content="#f4775d">
+
+  <style>
+    :root {
+      --orange: #f4775d;
+      --orange-dark: #df6049;
+      --pink: #fff0ed;
+      --cream: #fffaf6;
+      --dark: #292323;
+      --muted: #6f6765;
+      --white: #ffffff;
+      --border: #f1dcd6;
+      --green: #218653;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 85px;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--dark);
+      background: var(--cream);
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button, a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1120px, 90%);
+      margin: auto;
+    }
+
+    /* Navigation */
+
+    header {
+      background: rgba(255, 250, 246, 0.97);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--orange-dark);
+      line-height: 1.2;
+    }
+
+    .logo span {
+      display: block;
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 3px;
+      margin-top: 5px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 23px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .nav-links a:hover {
+      color: var(--orange-dark);
+    }
+
+    .nav-cta, .btn {
+      display: inline-block;
+      padding: 12px 21px;
+      border-radius: 9px;
+      background: var(--orange);
+      color: white;
+      font-weight: 700;
+      border: 0;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .nav-cta:hover, .btn:hover {
+      background: var(--orange-dark);
+      transform: translateY(-2px);
+    }
+
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: 0;
+      font-size: 27px;
+      cursor: pointer;
+    }
+
+    /* Hero section */
+
+    .hero {
+      background: linear-gradient(135deg, #fff0ed, #ffddd4);
+      padding: 85px 0;
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      color: var(--orange-dark);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(36px, 5vw, 57px);
+      line-height: 1.12;
+      margin: 17px 0;
+      letter-spacing: -1.5px;
+    }
+
+    h1 span {
+      color: var(--orange-dark);
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 550px;
+      margin-bottom: 25px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn-outline {
+      display: inline-block;
+      padding: 11px 20px;
+      border: 1px solid var(--orange);
+      color: var(--orange-dark);
+      border-radius: 9px;
+      font-weight: 700;
+    }
+
+    .hero-image {
+      min-height: 390px;
+      border-radius: 24px;
+      background: #f8c8bc;
+      overflow: hidden;
+      box-shadow: 0 20px 45px #7d46301c;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 390px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 28px;
+      color: #514845;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    /* General sections */
+
+    section {
+      padding: 76px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 38px;
+    }
+
+    .section-heading h2 {
+      font-size: clamp(28px, 4vw, 38px);
+      line-height: 1.25;
+      margin: 9px 0 12px;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 17px;
+    }
+
+    .feature-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      padding: 24px 19px;
+    }
+
+    .feature-icon {
+      width: 45px;
+      height: 45px;
+      background: var(--pink);
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      font-size: 22px;
+      margin-bottom: 14px;
+    }
+
+    .feature-card h3 {
+      font-size: 17px;
+      margin-bottom: 7px;
+    }
+
+    .feature-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* Why choose us */
+
+    .why {
+      background: var(--pink);
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 45px;
+    }
+
+    .why-copy h2 {
+      font-size: 35px;
+      line-height: 1.25;
+      margin: 12px 0 18px;
+    }
+
+    .why-copy p {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .check-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .check-list li {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .check-list li::before {
+      content: "✓ ";
+      color: var(--green);
+      font-weight: 900;
+    }
+
+    .why-image {
+      border-radius: 20px;
+      overflow: hidden;
+      background: #f6d5ca;
+      min-height: 300px;
+    }
+
+    .why-image img {
+      width: 100%;
+      height: 340px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Rooms */
+
+    .rooms-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .room-card {
+      position: relative;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 17px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 8px 25px #6a33200a;
+    }
+
+    .room-card.popular {
+      border: 2px solid var(--orange);
+    }
+
+    .popular-label {
+      position: absolute;
+      top: -14px;
+      right: 20px;
+      background: var(--orange);
+      color: white;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .room-card h3 {
+      font-size: 22px;
+    }
+
+    .room-type {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .price {
+      color: var(--orange-dark);
+      font-size: 28px;
+      font-weight: 800;
+      margin: 18px 0;
+      line-height: 1.3;
+    }
+
+    .price small {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .room-card ul {
+      list-style: none;
+      margin-bottom: 24px;
+      flex: 1;
+    }
+
+    .room-card li {
+      padding: 7px 0;
+      font-size: 14px;
+      border-bottom: 1px solid #f5efec;
+    }
+
+    .room-card li::before {
+      content: "✓ ";
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .room-card .btn {
+      text-align: center;
+    }
+
+    .price-note {
+      margin-top: 25px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* Amenities */
+
+    .amenities {
+      background: #fff4ef;
+    }
+
+    .amenities-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+
+    .amenity {
+      display: flex;
+      align-items: flex-start;
+      gap: 13px;
+      background: white;
+      padding: 18px;
+      border-radius: 12px;
+      border: 1px solid #f5e6df;
+    }
+
+    .amenity-icon {
+      font-size: 23px;
+    }
+
+    .amenity h3 {
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .amenity p {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .benefits {
+      margin-top: 28px;
+      padding: 25px;
+      background: #ffe1d8;
+      border-radius: 15px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: center;
+      gap: 20px;
+    }
+
+    .benefits strong {
+      color: var(--orange-dark);
+      font-size: 20px;
+      display: block;
+    }
+
+    .benefits span {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* Contact */
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .contact-card, .contact-form {
+      padding: 28px;
+      border: 1px solid var(--border);
+      background: white;
+      border-radius: 17px;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 15px;
+      padding: 17px 0;
+      border-bottom: 1px solid #f3e9e5;
+    }
+
+    .contact-item:last-child {
+      border-bottom: 0;
+    }
+
+    .contact-item .feature-icon {
+      flex-shrink: 0;
+      margin: 0;
+    }
+
+    .contact-item h3 {
+      font-size: 15px;
+      margin-bottom: 3px;
+    }
+
+    .contact-item p, .contact-item a {
+      color: var(--muted);
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-item a:hover {
+      color: var(--orange-dark);
+    }
+
+    .contact-form h3 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .contact-form > p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #e7d8d2;
+      border-radius: 8px;
+      background: #fffdfc;
+      color: var(--dark);
+      font: inherit;
+      font-size: 14px;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: 2px solid #f9b4a5;
+      border-color: var(--orange);
+    }
+
+    .contact-form .btn {
+      width: 100%;
+      font-size: 15px;
+    }
+
+    .form-note {
+      font-size: 12px !important;
+      margin-top: 12px;
+    }
+
+    /* Footer */
+
+    footer {
+      background: #302624;
+      color: white;
+      padding: 35px 0;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 13px;
+      color: #e4d4cf;
+      margin-top: 6px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 17px;
+      font-size: 13px;
+    }
+
+    .footer-links a:hover {
+      color: #ffb6a6;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 90;
+      width: 57px;
+      height: 57px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #25d366;
+      color: white;
+      font-size: 27px;
+      box-shadow: 0 5px 18px #0002;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.06);
+    }
+
+    /* Responsive design */
+
+    @media (max-width: 900px) {
+      .hero-grid, .why-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .hero {
+        padding: 55px 0;
+      }
+
+      .hero-image, .hero-image img {
+        min-height: 300px;
+        height: 300px;
+      }
+
+      .about-grid, .amenities-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .rooms-grid {
+        gap: 14px;
+      }
+
+      .room-card {
+        padding: 24px 17px;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .navbar {
+        min-height: 68px;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        width: 100%;
+        padding: 20px 5%;
+        background: var(--cream);
+        border-bottom: 1px solid var(--border);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 5px 0;
+      }
+
+      .nav-cta {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 39px;
+      }
+
+      section {
+        padding: 55px 0;
+      }
+
+      .about-grid, .amenities-grid, .rooms-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .room-card {
+        padding: 27px 23px;
+      }
+
+      .check-list {
+        grid-template-columns: 1fr;
+      }
+
+      .benefits {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-card, .contact-form {
+        padding: 22px 18px;
+      }
+
+      .hero-image, .hero-image img {
+        height: 250px;
+        min-height: 250px;
+      }
+
+      .trust-row {
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container navbar">
+      <a class="logo" href="#home">
+        NEW LOKANATH
+        <span>LADIES PG</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false">☰</button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Enquire Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Your Home Away From Home</span>
+
+          <h1>
+            Comfort, Care &amp;<br>
+            <span>Community Living</span>
+          </h1>
+
+          <p>
+            Welcome to NEW LOKANATH LADIES PG — comfortable
+            accommodation for working women and students in
+            Kundalahalli, Bengaluru.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#rooms">Explore Rooms</a>
+            <a class="btn-outline" href="#contact">Contact Us</a>
+          </div>
+
+          <div class="trust-row">
+            <span>✓ Multiple Sharing Options</span>
+            <span>✓ Essential Amenities</span>
+            <span>✓ Women Residents</span>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <!-- Replace this image URL with a real PG room photo -->
+          <img
+            src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1100&q=85"
+            alt="Comfortable bedroom inspiration"
+            fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">About Our PG</span>
+          <h2>A Comfortable Place to Call Home</h2>
+          <p>
+            We provide accommodation for working professionals
+            and students in a welcoming, homely environment.
+            Our goal is to make everyday living comfortable
+            and convenient.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🔐</div>
+            <h3>Safe &amp; Secure</h3>
+            <p>CCTV surveillance and secure entry arrangements.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🏡</div>
+            <h3>Homely Environment</h3>
+            <p>Comfortable living spaces designed for everyday life.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">👭</div>
+            <h3>Community Living</h3>
+            <p>A shared environment for women students and professionals.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🤝</div>
+            <h3>Care &amp; Support</h3>
+            <p>Management support for residents' day-to-day needs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="why">
+      <div class="container why-grid">
+        <div class="why-copy">
+          <span class="eyebrow">Why Choose Us?</span>
+          <h2>More Than a Room, A Place to Feel at Home</h2>
+
+          <p>
+            NEW LOKANATH LADIES PG offers different room-sharing
+            options and a range of amenities for daily living.
+            Contact us to confirm room availability, exact prices
+            and the facilities currently provided.
+          </p>
+
+          <ul class="check-list">
+            <li>Multiple room options</li>
+            <li>Wi-Fi access</li>
+            <li>Meal facilities</li>
+            <li>Power backup</li>
+            <li>Common living spaces</li>
+            <li>Convenient location</li>
+          </ul>
+
+          <div style="margin-top: 26px">
+            <a class="btn" href="#contact">Talk to Us</a>
+          </div>
+        </div>
+
+        <div class="why-image">
+          <!-- Replace with your actual building or PG photo -->
+          <img
+            src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1000&q=85"
+            alt="Shared accommodation interior"
+            loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms -->
+    <section id="rooms">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Room Options</span>
+          <h2>Choose the Room That Suits You</h2>
+          <p>
+            Compare our sharing options and contact us for
+            current availability and final pricing.
+          </p>
+        </div>
+
+        <div class="rooms-grid">
+          <article class="room-card">
+            <h3>Single Sharing</h3>
+            <p class="room-type">Private room · 1 person</p>
+
+            <div class="price">
+              ₹15,000–₹17,000
+              <small>per month</small>
+            </div>
+
+            <ul>
+              <li>Private room</li>
+              <li>Attached bathroom</li>
+              <li>Personal wardrobe and study table</li>
+              <li>Queen-size bed with mattress</li>
+              <li>AC/fan as provided</li>
+              <li>Wi-Fi access</li>
+            </ul>
+
+            <a class="btn enquiry-link"
+              data-room="Single Sharing"
+              href="#contact">Enquire About This Room</a>
+          </article>
+
+          <article class="room-card popular">
+            <span class="popular-label">Popular Choice</span>
+            <h3>Double Sharing</h3>
+            <p class="room-type">Shared room · 2 persons</p>
+
+            <div class="price">
+              ₹9,000–₹10,000
+              <small>per person, per month</small>
+            </div>
+
+            <ul>
+              <li>Shared room</li>
+              <li>Shared bathroom</li>
+              <li>Individual wardrobes and study tables</li>
+              <li>Comfortable beds with storage</li>
+              <li>AC/fan as provided</li>
+              <li>Wi-Fi access</li>
+            </ul>
+
+            <a class="btn enquiry-link"
+              data-room="Double Sharing"
+              href="#contact">Enquire About This Room</a>
+          </article>
+
+          <article class="room-card">
+            <h3>Triple Sharing</h3>
+            <p class="room-type">Shared room · 3 persons</p>
+
+            <div class="price">
+              ₹7,000–₹8,000
+              <small>per person, per month</small>
+            </div>
+
+            <ul>
+              <li>Shared room</li>
+              <li>Common bathroom</li>
+              <li>Individual storage space</li>
+              <li>Beds with study area</li>
+              <li>Ceiling fan and lighting</li>
+              <li>Wi-Fi access</li>
+            </ul>
+
+            <a class="btn enquiry-link"
+              data-room="Triple Sharing"
+              href="#contact">Enquire About This Room</a>
+          </article>
+        </div>
+
+        <p class="price-note">
+          Prices may vary depending on room location and amenities.
+          Please contact us for exact pricing and availability.
+        </p>
+      </div>
+    </section>
+
+    <!-- Amenities -->
+    <section class="amenities" id="amenities">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Amenities &amp; Facilities</span>
+          <h2>Everyday Comforts in One Place</h2>
+          <p>
+            Explore the facilities listed for NEW LOKANATH LADIES PG.
+            Please confirm the current availability of each facility
+            with the management.
+          </p>
+        </div>
+
+        <div class="amenities-grid">
+          <article class="amenity">
+            <span class="amenity-icon">📶</span>
+            <div>
+              <h3>High-Speed Wi-Fi</h3>
+              <p>Internet access for work and study.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">🍲</span>
+            <div>
+              <h3>Meals Included</h3>
+              <p>Home-cooked meal facilities.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">🚿</span>
+            <div>
+              <h3>Hot Water</h3>
+              <p>Hot-water facility.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">❄️</span>
+            <div>
+              <h3>AC / Cooler</h3>
+              <p>Cooling facilities as available in rooms.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">🛡️</span>
+            <div>
+              <h3>Security</h3>
+              <p>CCTV and secure entry arrangements.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">🔌</span>
+            <div>
+              <h3>Power Backup</h3>
+              <p>Backup power facility.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">📺</span>
+            <div>
+              <h3>Common TV Room</h3>
+              <p>Shared entertainment space.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">🧺</span>
+            <div>
+              <h3>Laundry</h3>
+              <p>Washing-machine facility.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">🛵</span>
+            <div>
+              <h3>Parking</h3>
+              <p>Two-wheeler parking facility.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">📚</span>
+            <div>
+              <h3>Study Room</h3>
+              <p>A space for reading and studying.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">☕</span>
+            <div>
+              <h3>Common Kitchen</h3>
+              <p>Tea and coffee facilities.</p>
+            </div>
+          </article>
+
+          <article class="amenity">
+            <span class="amenity-icon">🏋️</span>
+            <div>
+              <h3>Fitness Area</h3>
+              <p>Basic workout equipment.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="benefits">
+          <div>
+            <strong>Power Backup</strong>
+            <span>Backup electricity facility</span>
+          </div>
+          <div>
+            <strong>Resident Support</strong>
+            <span>Contact management when needed</span>
+          </div>
+          <div>
+            <strong>Room Cleaning</strong>
+            <span>Ask us about cleaning arrangements</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Get in Touch</span>
+          <h2>Find Your Next Home</h2>
+          <p>
+            Have questions about room availability, prices or amenities?
+            Contact us directly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Contact Information</h3>
+
+            <div class="contact-item">
+              <div class="feature-icon">📞</div>
+              <div>
+                <h3>Phone</h3>
+                <a href="tel:+919731722758">+91 97317 22758</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="feature-icon">✉️</div>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:tejareddy1826@gmail.com">
+                  tejareddy1826@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="feature-icon">📍</div>
+              <div>
+                <h3>Address</h3>
+                <p>
+                  #739 NEW LOKANATH LADIES PG,<br>
+                  Near Childrens Park, Brookfield Mall,<br>
+                  Kundalahalli, Bengaluru – 560037
+                </p>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=NEW+LOKANATH+LADIES+PG+Kundalahalli+Bengaluru"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  View directions on Google Maps →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="enquiryForm">
+            <h3>Send an Enquiry</h3>
+            <p>
+              Fill in your details. Your enquiry will open in WhatsApp
+              so you can review and send it.
+            </p>
+
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input id="name" name="name" type="text"
+                placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Your Phone Number</label>
+              <input id="phone" name="phone" type="tel"
+                placeholder="Enter your phone number"
+                pattern="[0-9+\s()-]{8,20}" required>
+            </div>
+
+            <div class="form-group">
+              <label for="room">Preferred Room Type</label>
+              <select id="room" name="room" required>
+                <option value="">Select a room</option>
+                <option>Single Sharing</option>
+                <option>Double Sharing</option>
+                <option>Triple Sharing</option>
+                <option>Need more information</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="3"
+                placeholder="Ask about availability, price or facilities"></textarea>
+            </div>
+
+            <button type="submit" class="btn">
+              Continue to WhatsApp
+            </button>
+
+            <p class="form-note">
+              This form does not book a room or store your details.
+              Please send the WhatsApp message to submit your enquiry.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <a class="logo" href="#home" style="color: #ffad99">
+        NEW LOKANATH LADIES PG
+      </a>
+      <p>Your Safe &amp; Comfortable Home Away From Home</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>
+        &copy; <span id="year"></span> NEW LOKANATH LADIES PG.
+        All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp contact -->
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/919731722758?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20NEW%20LOKANATH%20LADIES%20PG."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact NEW LOKANATH LADIES PG on WhatsApp">
+    ☎
+  </a>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", function () {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+      );
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+    // Close the menu after selecting a section
+    navLinks.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+        menuToggle.textContent = "☰";
+      });
+    });
+
+    // Current year in footer
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+    // Preselect the room type when an enquiry button is clicked
+    document.querySelectorAll(".enquiry-link").forEach(function (link) {
+      link.addEventListener("click", function () {
+        document.getElementById("room").value =
+          link.dataset.room;
+      });
+    });
+
+    // WhatsApp enquiry form
+    document.getElementById("enquiryForm").addEventListener(
+      "submit",
+      function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const room = document.getElementById("room").value;
+        const message = document.getElementById("message").value.trim();
+
+        if (!name || !phone || !room) {
+          alert("Please fill in your name, phone number and room type.");
+          return;
+        }
+
+        const whatsappMessage =
+          "Hello NEW LOKANATH LADIES PG,\n\n" +
+          "I would like to enquire about accommodation.\n\n" +
+          "Name: " + name + "\n" +
+          "Phone: " + phone + "\n" +
+          "Preferred room: " + room + "\n" +
+          "Message: " + (message || "Please share availability and details.") +
+          "\n\nThank you.";
+
+        const whatsappURL =
+          "https://wa.me/919731722758?text=" +
+          encodeURIComponent(whatsappMessage);
+
+        window.open(whatsappURL, "_blank", "noopener,noreferrer");
+      }
+    );
+  </script>
+
+</body>
+</html>
